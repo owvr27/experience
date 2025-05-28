@@ -1,25 +1,22 @@
-
-
-
 /* General Styles for the Skills Section */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #FCF7F8;
+    background-color: #A31621;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #FFFFFF;
 }
 
 #skills-section {
     padding: 50px 20px;
     text-align: center;
-    background-color: #FCF7F8;
+    background-color: #A31621;
 }
 
 .title {
     font-size: 36px;
     font-weight: bold;
-    color: #A31621;
+    color: #FFFFFF;
     margin-bottom: 40px;
 }
 
@@ -33,52 +30,27 @@ body {
 /* Icon Styling */
 .skills-container i {
     font-size: 50px;
-    color: #A31621;  /* Default Icon Color */
-    transition: color 0.3s ease, transform 0.3s ease;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
 }
 
-/* Hover Effect on Icons */
+/* Optimized Hover Effect */
 .skills-container i:hover {
-    color: #FCF7F8;  /* Hover Color */
-    transform: scale(1.1);  /* Slight scale effect on hover */
+    color: #FFD700; /* Gold on hover */
+    transform: scale(1.15); /* Slightly more prominent */
+    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700; /* Glow effect */
 }
 
 /* Individual Icon Color Styling */
-.skills-container i.devicon-python-plain {
-    color: #A31621;  /* Python Icon */
-}
-
-.skills-container i.devicon-html5-plain {
-    color: #A31621;  /* HTML5 Icon */
-}
-
-.skills-container i.devicon-css3-plain {
-    color: #A31621;  /* CSS3 Icon */
-}
-
-.skills-container i.fas.fa-drafting-compass {
-    color: #A31621;  /* Drafting Compass Icon */
-}
-.skills-container i.devicon-java-plain {
-    color: #A31621;  /* Java Icon */
-}
-
-.skills-container i.devicon-git-plain {
-    color: #A31621;  /* Git Icon */
-}
-
-.skills-container i.devicon-github-plain {
-    color: #A31621;  /* GitHub Icon */
-}
-
-.skills-container i.devicon-javascript-plain {
-    color: #A31621;  /* JavaScript Icon */
-}
-
-.skills-container i.devicon-mysql-plain {
-    color: #A31621;  /* MySQL Icon */
-}
-
+.skills-container i.devicon-python-plain,
+.skills-container i.devicon-html5-plain,
+.skills-container i.devicon-css3-plain,
+.skills-container i.fas.fa-drafting-compass,
+.skills-container i.devicon-java-plain,
+.skills-container i.devicon-git-plain,
+.skills-container i.devicon-github-plain,
+.skills-container i.devicon-javascript-plain,
+.skills-container i.devicon-mysql-plain,
 .skills-container i.fas.fa-network-wired {
-    color: #A31621;  /* Network Icon */
+    color: #FFFFFF;
 }
